@@ -1,11 +1,9 @@
 package middleware
 
 import (
-	"os"
-
 	"github.com/gofiber/fiber/v2"
-
 	jwtMiddleware "github.com/gofiber/jwt/v2"
+	"os"
 )
 
 // JWTProtected func for specify routes group with JWT authentication.

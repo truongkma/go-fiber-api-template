@@ -1,11 +1,10 @@
 package configs
 
 import (
+	"github.com/gofiber/fiber/v2"
 	"os"
 	"strconv"
 	"time"
-
-	"github.com/gofiber/fiber/v2"
 )
 
 // FiberConfig func for configuration Fiber app.
