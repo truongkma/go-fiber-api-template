@@ -9,7 +9,6 @@ import (
 // Queries struct for collect all app queries.
 type Queries struct {
 	*queries.UserQueries // load queries from User model
-	*queries.BookQueries // load queries from Book model
 }
 
 // OpenDBConnection func for opening database connection.

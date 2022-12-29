@@ -2,12 +2,13 @@ package database
 
 import (
 	"fmt"
-	_ "github.com/jackc/pgx/v4/stdlib" // load pgx driver for PostgreSQL
-	"github.com/jmoiron/sqlx"
-	"github.com/truongkma/go-fiber-api-template/pkg/utils"
 	"os"
 	"strconv"
 	"time"
+
+	_ "github.com/jackc/pgx/v4/stdlib" // load pgx driver for PostgreSQL
+	"github.com/jmoiron/sqlx"
+	"github.com/truongkma/go-fiber-api-template/pkg/utils"
 )
 
 // PostgreSQLConnection func for connection to PostgreSQL database.

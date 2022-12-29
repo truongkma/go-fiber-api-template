@@ -1,13 +1,14 @@
 package main
 
 import (
+	"os"
+
 	"github.com/gofiber/fiber/v2"
 	_ "github.com/joho/godotenv/autoload" // load .env file automatically
 	"github.com/truongkma/go-fiber-api-template/pkg/configs"
 	"github.com/truongkma/go-fiber-api-template/pkg/middleware"
 	"github.com/truongkma/go-fiber-api-template/pkg/routes"
 	"github.com/truongkma/go-fiber-api-template/pkg/utils"
-	"os"
 )
 
 func main() {
